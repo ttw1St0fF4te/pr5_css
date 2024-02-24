@@ -1,0 +1,132 @@
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size:16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    justify-content: flex-start;
+    align-items: center;
+    font-size:16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 250px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+.div_container {
+    flex-direction: column;
+    align-items: start;
+}
+
+.div_container1 {
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 115px;
+}
+
+.div_container2 {
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 10px;
+}
+
+body 
+{
+    background: black;
+}
+
+a { 
+    color: grey;
+    text-decoration: none;
+    padding: 15px;
+}
+a:hover {
+    color: white;
+    text-decoration: underline orange;
+    text-decoration-thickness: 2px;
+}
+button {
+    width: 200px;
+    height: 60px;
+    background: orange;
+    color: white;
+    text-align: center;
+    font-size:14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-style: hidden;
+}
+button:hover {
+    background: darkorange;
+}
+
+img {
+    width: 1000px;
+}
+
+.search-box {
+    background: black;
+    border-color: grey;
+    font-size:14px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 160px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.bell {
+    font-size: 40px;
+    color: white;
+    margin-right: 115px;
+    margin-top: 0px;
+}
+
+.koilo {
+    margin-left: 115px;
+    text-align: left; 
+    color: white;
+    font-size:16px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.quote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    color: white;
+    font-size: 45px;
+    margin-left: 115px;
+}
+
+.secondquote {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left; 
+    color: white;
+    font-size: 16px;
+    margin-right: 115px;
+}
+
+.firststar {
+    color: orange;
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+.secondstar {
+    color: orange;
+    font-size: 35px;
+    margin-bottom: 0px;
+    margin-top: 115px;
+}
